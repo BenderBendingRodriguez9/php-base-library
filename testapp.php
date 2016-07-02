@@ -21,7 +21,7 @@ global $app;
 // --------------------------------------
 class Page
 {
-	const Index = "index.php";
+	const Index = "exampleindex.php";
 }
 
 
