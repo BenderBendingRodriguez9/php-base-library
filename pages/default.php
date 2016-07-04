@@ -16,6 +16,13 @@ class DefaultPage extends SubPage
 	
 	public function Run() { return; }
 	public function Close() { return; }
+
+	public function HTMLContent()
+	{
+		printf( "
+			<b>Content</b>
+		" );
+	}
 }
 
 
